@@ -48,6 +48,7 @@ body {
     overflow: hidden;
 }
 
+/* add custom font */
 @font-face {
     font-family: Norse;
     src: url(Norse-Bold.otf) format('opentype');
@@ -100,3 +101,25 @@ body {
     color: aliceblue;
 }
 
+.form {
+    position: relative;
+    width: 67%;
+    background-color:gainsboro;
+}
+
+.dummy-text {
+    width: 52ch;
+    position: fixed;
+    top: 15%;
+    right: 20%;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+em {
+    font-style: italic;
+}
+
+.call {
+    padding-top: 20px;
+}
