@@ -48,6 +48,11 @@ body {
     overflow: hidden;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold.otf) format('opentype');
+}
+
 .banner {
     position: relative;
     width: 33%;
@@ -65,7 +70,7 @@ body {
 
 .title {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     position: fixed;
     top: 25%;
@@ -78,6 +83,7 @@ body {
 
 .title > p {
     font-size: 5rem;
+    font-family: Norse, sans-serif;
     text-align: center;
     color: aliceblue;
 }
